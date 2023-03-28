@@ -1,0 +1,90 @@
+body {
+  font-family: "Noto Serif", Serif;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0;
+
+}
+
+h1 {
+  font-family: "Yeseva One";
+  font-size: 48px;
+  color: #703939;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #7c7b7b;
+  border-left: 1px solid #88898c;
+  padding: 10px;
+  font-family: "Inconsolata";
+}
+
+.Headline {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(100, 23, 23);
+  border-radius: 0;
+  border-bottom: 10px solid #88898c;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #a75353;
+  border-top: 1px dashed #88898c;
+  font-family: "Montserrat";
+}
+
+.past {
+  background-color: #aca590;
+  color: white;
+}
+
+.present {
+  background-color: #c25d50;
+  color: white;
+}
+
+.future {
+  background-color: #69afbf;
+  color: white;
+}
+
+.saveBtn {
+  border: 1px solid #88898c;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #152c40;
+  color: rgb(175, 50, 50);
+  overflow: hidden;
+  position: relative;
+}
+
+.saveBtn:hover {
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+  transition-duration: 0.6s;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
